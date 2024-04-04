@@ -47,8 +47,6 @@ public class ClientDto {
         this.codePostal = clientEntity.getCodePostal();
         this.siren = clientEntity.getSiren();
         this.numTel = clientEntity.getNumTel();
-        this.libelleVille = clientEntity.getVilleEntity().getLibelleVille();
-        this.libellePays = clientEntity.getVilleEntity().getPaysEntity().getLibellePays();
     }
 
 

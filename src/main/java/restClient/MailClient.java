@@ -7,7 +7,7 @@ import jakarta.ws.rs.core.Response;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 
 @RegisterRestClient
-@Path("/Mails/")
+@Path("/mails/")
 public interface MailClient {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
